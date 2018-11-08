@@ -18,4 +18,4 @@ Pros:
 High accuracy, Insensiitive to outliers, No assumptions about data
 
 Cons:
-Computationally expensive, require a lot of memory
+Computationally expensive, Require a lot of memory
