@@ -5,7 +5,7 @@ Given a training dataset with labels, KNN will help to predict the classificatio
 The majority is the new class we assign to the new data.
 
 For every point in our dataset:
-1. Calculate the distance between inX and cuurrent point
+1. Calculate the distance between inX and current point
 2. Sort the distances in increasing order
 3. Take k items with lowest distance to inX
 4. Find the majority class among these items
