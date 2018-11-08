@@ -19,7 +19,7 @@ def classify0(inX, dataSet, labels, k):
     k: K values
     kNN.classify0([0,0], group, labels, 3)
     """
-    # 1. calculate the distance
+    # 1. calculate the distance- Euclidean Distance
     dataSetSize = dataSet.shape[0]
     diffMat = tile(inX, (dataSetSize, 1)) - dataSet
     # sqare it
