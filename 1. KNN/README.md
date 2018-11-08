@@ -16,5 +16,6 @@ For every point in our dataset:
 
 Pros:
 High accuracy, Insensiitive to outliers, No assumptions about data
+
 Cons:
 Computationally expensive, require a lot of memory
