@@ -8,7 +8,7 @@ For every point in our dataset:
 1. Calculate the distance between inX and current point
 2. Sort the distances in increasing order
 3. Take k items with lowest distance to inX
-4. Find the majority class among these items
+4. Find the majority class among these k items
 5. Return the majority class as our predication for the class of inX
 
 Pros:
