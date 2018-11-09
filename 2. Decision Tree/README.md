@@ -30,8 +30,7 @@ The change of information before and after the split.
 
 Entropy:
 The expected value of all the information of all possible values of our class.
-Quantify the amount of uncertainty involved in the value of a random variable.  
-The split with lowest entropy is the best option.
+Quantify the amount of uncertainty involved in the value of a random variable.  The split with lowest entropy is the best option.
 
 
 Pros:
