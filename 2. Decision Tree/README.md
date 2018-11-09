@@ -10,11 +10,11 @@ One of the best things about decision trees is that we can easily understand the
 Check if every item in the dataset is in the same class in Decision Tree:
 1. If so return the class label
 2. Else
-find the best feature to split the data
-split the dataset
-create a branch node
-for each split
-call createBranch and add the result to the branch node
+find the best feature to split the data;
+split the dataset;
+create a branch node;
+for each split:
+call createBranch and add the result to the branch node;
 return branch node
 
 
