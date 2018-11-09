@@ -19,18 +19,19 @@ Check if every item in the dataset is in the same class in Decision Tree:
 
 
 
-Information theory
+Information theory:
 A measure of information, representing the degree of uncertainty.
 
 
-Information Gain
+Information Gain:
 The change of information before and after the split.
 The split with highest information gain is the best option.
 
 
-Entropy
+Entropy:
 The expected value of all the information of all possible values of our class.
-Quantify the amount of uncertainty involved in the value of a random variable.  The split with lowest entropy is the best option.
+Quantify the amount of uncertainty involved in the value of a random variable.  
+The split with lowest entropy is the best option.
 
 
 Pros:
