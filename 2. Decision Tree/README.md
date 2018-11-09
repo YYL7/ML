@@ -25,7 +25,7 @@ A measure of information, representing the degree of uncertainty.
 
 Information Gain:
 The change of information before and after the split.
-The split with highest information gain is the best option.
+  The split with highest information gain is the best option.
 
 
 Entropy:
