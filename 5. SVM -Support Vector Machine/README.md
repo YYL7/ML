@@ -1,4 +1,5 @@
 SVM (Support Vector Machine)
+
 For SVM, we have separating hyperplane, which is used to separate the dataset. 
 The points closest to the separating hyperplane are known as support vectors. 
 So, SVM is to maximize the distance from the separating line to the support vectors
@@ -6,6 +7,7 @@ by solving a quadratic optimization problem.
 
 
 SMO （Sequential Minimal Optimization)
+
 --The SMO algorithm works to find a set of alphas and b. Once we have a set of alphas,
 we can easily compute our weights w and get the separating hyperplane. 
 --Here’s how the SMO algorithm works: it chooses two alphas to optimize on each cycle. 
@@ -15,6 +17,7 @@ must meet is that both alphas must be outside their margin boundary.
 The second criterion is that the alphas aren’t already clamped or bounded.
 
 Kernel
+
 --Using kernels for more complex data, to transform our data into a form that’s easily understood by our classifier. 
 --The nonlinear problem in low-dimensionality becomes a linear problem in high-dimensionality. 
 ----mapping from one feature space to another feature space.
@@ -26,6 +29,7 @@ Replacing the inner product with a kernel is known as the kernel trick or kernel
 
 
 Summary
+
 --Support vector machines are a type of classifier. SVM try to maximize margin by solving a 
 quadratic optimization problem. SMO algorithm, which allowed fast training of SVMs by 
 optimizing only two alphas at one time. (Full Platt version and the simplified version.) 
