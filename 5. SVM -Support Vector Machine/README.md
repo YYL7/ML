@@ -21,14 +21,14 @@ Kernel
 --Using kernels for more complex data, to transform our data into a form that’s easily understood by our classifier. 
 --The nonlinear problem in low-dimensionality becomes a linear problem in high-dimensionality. 
 
-----mapping from one feature space to another feature space.
+--Mapping from one feature space to another feature space.
 
--- One great thing about the SVM optimization is that all operations can be written in terms of inner products.
+--One great thing about the SVM optimization is that all operations can be written in terms of inner products.
 Inner products are two vectors multiplied together to yield a scalar or single number. 
 We can replace the inner products with our kernel functions without making simplifications. 
 Replacing the inner product with a kernel is known as the kernel trick or kernel substation.
 
--- RBF (Radial Bias Function) (a function that takes a vector and outputs a scalar based on the vector’s distance.)
+--RBF (Radial Bias Function) (a function that takes a vector and outputs a scalar based on the vector’s distance.)
 
 
 Summary
