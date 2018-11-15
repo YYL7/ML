@@ -19,6 +19,7 @@ The second criterion is that the alphas aren’t already clamped or bounded.
 Kernel
 
 --Using kernels for more complex data, to transform our data into a form that’s easily understood by our classifier. 
+
 --The nonlinear problem in low-dimensionality becomes a linear problem in high-dimensionality. 
 
 --Mapping from one feature space to another feature space.
