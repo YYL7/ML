@@ -9,13 +9,13 @@ class optStruct:
     def __init__(self, dataMatIn, classLabels, C, toler, kTup):
         """
         Args:
-            dataMatIn    数据集
-            classLabels  类别标签
+            dataMatIn    data matrix
+            classLabels  lables
             C   松弛变量(常量值)，允许有些数据点可以处于分隔面的错误一侧。
                 控制最大化间隔和保证大部分的函数间隔小于1.0这两个目标的权重。
                 可以通过调节该参数达到不同的结果。
-            toler   容错率
-            kTup    包含核函数信息的元组
+            toler   rate of tolerance
+            kTup    tuple in the kernel function
         """
 
         self.X = dataMatIn
@@ -23,7 +23,7 @@ class optStruct:
         self.C = C
         self.tol = toler
 
-        # 数据的行数
+        # m: length of the rows
         self.m = shape(dataMatIn)[0]
         self.alphas = mat(zeros((self.m, 1)))
         self.b = 0
@@ -31,7 +31,7 @@ class optStruct:
         # 误差缓存，第一列给出的是eCache是否有效的标志位，第二列给出的是实际的E值。
         self.eCache = mat(zeros((self.m, 2)))
 
-        # m行m列的矩阵
+        # Matrix m*m
         self.K = mat(zeros((self.m, self.m)))
         for i in range(self.m):
             self.K[:, i] = kernelTrans(self.X, self.X[i], kTup)
