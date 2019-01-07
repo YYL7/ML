@@ -11,9 +11,11 @@ If we want to find the maximum point on a function, then the best way to move is
 
 
 Summary 
+
 --Logistic regression is finding best-fit parameters to a nonlinear function called the sigmoid.
 Methods of optimization can be used to find the best-fit parameters. Among the optimization algorithms, 
 one of the most common algorithms is gradient ascent, which can be simplified with stochastic gradient ascent. 
+
 --Stochastic gradient ascent can do as well as gradient ascent using far fewer computing resources.
 In addition, stochastic gradient ascent can update what it has learned as new data comes in 
 rather than reloading all the data as in batch processing.
