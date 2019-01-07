@@ -1,4 +1,5 @@
 Logistic Regression
+
 Logistic regression is trying to build an equation to do classification with the data we. 
 For the logistic regression classifier (equation), we’ll take our features and multiply 
 each one by a weight and then add them up. This result will be put into the sigmoid function, 
@@ -6,11 +7,18 @@ and we’ll get a number between 0 and 1. And we will use optimization algorithm
 best-fit parameters.
 
 
-Gradient ascent 
-If we want to find the maximum point on a function, then the best way to move is in the direction of the gradient.
+Gradient Ascent:
+
+--If we want to find the maximum point on a function, then the best way to move is in the direction of the gradient.
+
+--Use the whole dataset on the update of weights.
 
 
-Summary 
+Stochastic Gradient Ascent:
+
+Only use one sample on the update of weights.
+
+Summary:
 
 --Logistic regression is finding best-fit parameters to a nonlinear function called the sigmoid.
 Methods of optimization can be used to find the best-fit parameters. Among the optimization algorithms, 
