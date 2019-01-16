@@ -28,5 +28,14 @@ AdaBoost uses a weak learner as the base classifier with the input data weighted
 # 8. Regression
 Regression is the process of predicting a target value for continuous data. discrete in classification. Minimizing the sum-of-squares error is used to find the best weights for the input features in a regression equation. 
 
+# Clustering
+Clustering is a type of unsupervised learning that automatically forms clusters of similar things.
+
 # 9. K-Means
 K-Means is an algorithm that will find k clusters for a given dataset without labels. The number of clusters k is user defined. Each cluster is described by a single point known as the centroid. Centroid means it’s at the center of all the points in the cluster.
+
+# Association rule
+Association analysis is the task of finding relationships in large datasets. These relationships can take two forms: frequent item sets or association rules. Frequent item sets are a collection of items that frequently occur together. The second one is Association rules suggest that a strong relationship exists between two items.
+
+# 10. Aprori
+Apriori is an algorithm for frequent item set mining and association rule learning over transactional databases. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets if those item sets appear sufficiently often in the database.
