@@ -4,7 +4,7 @@ from time import sleep
 import bs4
 from bs4 import BeautifulSoup
 import json
-import urllib.request   # 在Python3中将urllib2和urllib3合并为一个标准库urllib,其中的urllib2.urlopen更改为urllib.request.urlopen
+import urllib.request   
 
 # load the dataset
 def loadDataSet(fileName):
