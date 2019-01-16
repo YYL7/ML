@@ -27,6 +27,8 @@ Random Forest is an Ensemble method. Random forest builds multiple decision tree
 # 7. AdaBoost
 AdaBoost uses a weak learner as the base classifier with the input data weighted by a weight vector. In the first iteration the data is equally weighted. But in subsequent iterations the data is weighted more strongly if it was incorrectly classified previously. This adapting to the errors is the strength of AdaBoost.
 
+# Regression
+
 # 8. Regression
 Regression is the process of predicting a target value for continuous data. discrete in classification. Minimizing the sum-of-squares error is used to find the best weights for the input features in a regression equation. 
 
