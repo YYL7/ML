@@ -1,4 +1,4 @@
-Naïve Bayes
+# Naïve Bayes
 
 KNN and Decision Tree give us exactly the classification, and Naïve Bayes will give us 
 a guess of the classification about the class and assign a probability estimate to that 
