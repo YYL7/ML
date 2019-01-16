@@ -1,5 +1,5 @@
 # Machine Learning
-# 1.KNN
+# 1. KNN
 KNN method is mainly for classification. Given a training dataset with labels, KNN will help to predict the classification of the new data by calculating the distance with each pieces of the existing data and finding its k nearest neighbors. The majority is the new class we assign to the new data.
 # 2. Decision Tree
 Decision tree uses a tree-like model to describe the classification of the instances. A decision tree is drawn upside down with its root at the top. The decision blocks(rectangles) represents a condition/internal node, based on which the tree splits into branches/ edges. The end of the branch that doesn’t split anymore is the leaf, which represent various classes.  One of the best things about decision trees is that we can easily understand the data. 
@@ -19,10 +19,10 @@ Two types: Bagging (Random Forest) and Boosting (AdaBoost).
 
 --Boosting is different from bagging because the output is calculated from a weighted sum of all classifiers. The weights aren’t equal as in bagging but are based on how successful the classifier was in the previous iteration. (different weights so average weighted) (e.g. AdaBoost)
 
-# 6.Random Forest
+# 6. Random Forest
 Random Forest is an Ensemble method. Random forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 
-# 7.AdaBoost
+# 7. AdaBoost
 AdaBoost uses a weak learner as the base classifier with the input data weighted by a weight vector. In the first iteration the data is equally weighted. But in subsequent iterations the data is weighted more strongly if it was incorrectly classified previously. This adapting to the errors is the strength of AdaBoost.
 
 # 8. Regression
