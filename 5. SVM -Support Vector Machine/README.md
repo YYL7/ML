@@ -1,4 +1,4 @@
-SVM (Support Vector Machine)
+# SVM (Support Vector Machine)
 
 For SVM, we have separating hyperplane, which is used to separate the dataset. 
 The points closest to the separating hyperplane are known as support vectors. 
@@ -16,7 +16,7 @@ To be suitable, a set of alphas must meet certain criteria. One criterion a pair
 must meet is that both alphas must be outside their margin boundary. 
 The second criterion is that the alphas aren’t already clamped or bounded.
 
-Kernel
+# Kernel
 
 --Using kernels for more complex data, to transform our data into a form that’s easily understood by our classifier. 
 
@@ -32,7 +32,7 @@ Replacing the inner product with a kernel is known as the kernel trick or kernel
 --RBF (Radial Bias Function) (a function that takes a vector and outputs a scalar based on the vector’s distance.)
 
 
-Summary
+# Summary
 
 --Support vector machines are a type of classifier. SVM try to maximize margin by solving a 
 quadratic optimization problem. SMO algorithm, which allowed fast training of SVMs by 
