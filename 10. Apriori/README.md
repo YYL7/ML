@@ -31,6 +31,7 @@ The FP-growth algorithm is faster than Apriori because it requires only two scan
 The FP-growth algorithm scans the dataset only twice. The basic approach to finding frequent itemsets using the FP-growth:
 
 --1 Build the FP-tree. 
+
 --2 Mine frequent itemsets from the FP-tree.
 
 The FP-growth algorithm stores data in a compact data structure called an FP-tree, which has links connecting similar items. The linked items can be thought of as a linked list.
