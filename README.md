@@ -1,5 +1,5 @@
-# Machine Learning
-# Classification
+# ⭐Machine Learning
+# ⭐Classification
 Classification is a method of supervised learning  of identifying to which of a set of categories a new observation belongs, on the basis of a dataset with lables.
 # 1. KNN
 KNN method is mainly for classification. Given a training dataset with labels, KNN will help to predict the classification of the new data by calculating the distance with each pieces of the existing data and finding its k nearest neighbors. The majority is the new class we assign to the new data.
@@ -12,7 +12,7 @@ Logistic regression is trying to build an equation to do classification with the
 # 5. SVM(Support Vector Machine)
 For SVM, we have separating hyperplane, which is used to separate the dataset. The points closest to the separating hyperplane are known as support vectors. So, SVM is to maximize the distance from the separating line to the support vectors by solving a quadratic optimization problem.
 
-# Emsemble
+# ⭐Emsemble
 Ensemble methods are meta algorithms that combine several machine learning techniques into one predictive model in order to decrease variance (bagging), bias (boosting), or improve predictions (stacking). Ensemble methods usually produces more accurate solutions than a single model would. 
 
 Two types: Bagging (Random Forest) and Boosting (AdaBoost).
@@ -27,18 +27,18 @@ Random Forest is an Ensemble method. Random forest builds multiple decision tree
 # 7. AdaBoost
 AdaBoost uses a weak learner as the base classifier with the input data weighted by a weight vector. In the first iteration the data is equally weighted. But in subsequent iterations the data is weighted more strongly if it was incorrectly classified previously. This adapting to the errors is the strength of AdaBoost.
 
-# Regression
+# ⭐Regression
 
 # 8. Regression
 Regression is the process of predicting a target value for continuous data. discrete in classification. Minimizing the sum-of-squares error is used to find the best weights for the input features in a regression equation. 
 
-# Clustering
+# ⭐Clustering
 Clustering is a type of unsupervised learning that automatically forms clusters of similar things.
 
 # 9. K-Means
 K-Means is an algorithm that will find k clusters for a given dataset without labels. The number of clusters k is user defined. Each cluster is described by a single point known as the centroid. Centroid means it’s at the center of all the points in the cluster.
 
-# Association rule
+# ⭐Association rule
 Association analysis is the task of finding relationships in large datasets. These relationships can take two forms: frequent item sets or association rules. Frequent item sets are a collection of items that frequently occur together. The second one is Association rules suggest that a strong relationship exists between two items.
 
 # 10. Aprori
