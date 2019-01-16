@@ -1,4 +1,4 @@
-Decision Tree
+# Decision Tree
 
 Decision tree uses a tree-like model to describe the classification of the instances. 
 A decision tree is drawn upside down with its root at the top. The decision blocks(rectangles) 
