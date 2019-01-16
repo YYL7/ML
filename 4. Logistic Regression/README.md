@@ -1,4 +1,4 @@
-Logistic Regression
+# Logistic Regression
 
 Logistic regression is trying to build an equation to do classification with the data we. 
 For the logistic regression classifier (equation), we’ll take our features and multiply 
