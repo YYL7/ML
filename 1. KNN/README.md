@@ -1,4 +1,4 @@
-KNN (k-Nearest Neighbor)
+# KNN (k-Nearest Neighbor)
 
 
 KNN method is mainly for classification. 
