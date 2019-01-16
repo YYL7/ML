@@ -43,3 +43,15 @@ Association analysis is the task of finding relationships in large datasets. The
 
 # 10. Aprori
 Apriori is an algorithm for frequent item set mining and association rule learning over transactional databases. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets if those item sets appear sufficiently often in the database.
+
+# ⭐Dimensionality Reduction 
+Reduce the data from higher dimensions to lower dimensions, which will be easier for us to deal with data. (Preprocessing data)
+
+# 11. Principal Component Analysis (PCA)
+PCA uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables.
+
+# 12. Singular Value Decomposition (SVD）
+SVD, use to represent the original data set with a much smaller data set by removing noise and redundant information and thus to save bits (SVD, extracting the relevant features from a collection of noisy data.)
+
+
+
