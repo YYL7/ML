@@ -1,5 +1,9 @@
 # SVM (Support Vector Machine)
 
+Support Vector Machine (SVM) is a supervised classification model. Given a
+set of labeled examples, the goal of SVM is to divide them by a gap which is as
+wide as possible.
+
 For SVM, we have separating hyperplane, which is used to separate the dataset. 
 The points closest to the separating hyperplane are known as support vectors. 
 So, SVM is to maximize the distance from the separating line to the support vectors
