@@ -87,7 +87,6 @@ def analyse_data(dataMat):
         sum_cov_score += line_cov_score
         print('Principal Component：%s, Variance：%s%%, Cumulative Variance：%s%%' % (format(i+1, '2.0f'), format(line_cov_score/cov_all_score*100, '4.2f'), format(sum_cov_score/cov_all_score*100, '4.1f')))
 
-Principal Component
 if __name__ == "__main__":
     # # load the dataset，and coverte to float
     # dataMat = loadDataSet('11. PCA/testSet.txt')
