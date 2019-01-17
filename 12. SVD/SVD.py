@@ -199,7 +199,7 @@ def printMat(inMat, thresh=0.8):
 
 # Image compression
 def imgCompress(numSV=3, thresh=0.8):
-    myMat = imgLoadData('db/14.SVD/0_5.txt')
+    myMat = imgLoadData('12. SVD/0_5.txt')
 
     print("****original matrix****")
     printMat(myMat, thresh)
