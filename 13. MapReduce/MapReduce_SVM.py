@@ -9,7 +9,7 @@ class MRsvm(MRJob):
 
     def __init__(self, *args, **kwargs):
         super(MRsvm, self).__init__(*args, **kwargs)
-        self.data = pickle.load(open('13. MapReduce/svmDat27', 'r'))
+        self.data = pickle.load(open('13. MapReduce/svmData.txt', 'r'))
         self.w = 0
         self.eta = 0.69
         self.dataList = []
