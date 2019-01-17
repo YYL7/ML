@@ -53,5 +53,9 @@ PCA uses an orthogonal transformation to convert a set of observations of possib
 # 12. Singular Value Decomposition (SVD）
 SVD, use to represent the original data set with a much smaller data set by removing noise and redundant information and thus to save bits (SVD, extracting the relevant features from a collection of noisy data.)
 
+# ⭐Big data and MapReduce
+
+# 13. MapReduce
+A software framework for spreading a single computing job across multiple computers to shorten the time.
 
 
