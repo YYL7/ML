@@ -1,15 +1,16 @@
 # Singular Value Decomposition (SVD）
 SVD, use to represent the original data set with a much smaller data set by removing noise and redundant information and thus to save bits (SVD, extracting the relevant features from a collection of noisy data.)
 
-# Latent semantic indexing/ Latent semantic Analysis (LSI/LSA)
+• Latent semantic indexing/ Latent semantic Analysis (LSI/LSA)
 
 In LSI, a matrix is constructed of documents and words. When the SVD is done on this matrix, it creates a set of singular values, which represent concepts or topics contained in the documents. A simple search that looks only for the existence of words may have problems if the words are misspelled. Another problem with a simple search is that synonyms may be used and looking for the existence of a word wouldn’t tell you if a synonym was used to construct the document. If a concept is derived from thousands of similar documents, both synonyms will map to the same concept.
 
-# Recommendation systems
+• Recommendation systems
 
 Simple versions of recommendation systems compute similarity between items or people. More advanced methods use the SVD to create a theme space from the data and then compute similarities in the theme space.
 
-•	Recommendation systems--Collaborative filtering
+
+Recommendation systems--Collaborative filtering:
 
 Collaborative filtering works by taking a data set of users’ data and comparing it to the data of other users.
 
@@ -21,7 +22,7 @@ The only real math going on behind the scenes is the Similarity Measurement:
 
 -- Cosine Similarity measures the cosine of the angle between two vectors. 
 
-•	Evaluating recommendation engines
+Evaluating recommendation engines:
 
 -- Cross-Validation. To take some known rating and hold it out of the data and then make a prediction for that value. We can compare our predicted value with the real value from the user. (Training and Testing Data)
 
