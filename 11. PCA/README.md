@@ -1,4 +1,4 @@
-# Dimensionality Reduction 降维 
+# Dimensionality Reduction 
 •	Reduce the data from higher dimensions to lower dimensions, which will be easier for us to deal with data. (Preprocessing data)
 
 •	For example, converting the million pixels on the monitor into a three-dimensional image, showing the object’s position on the current environment in real time. (Reduce the data from one million dimensions to three)
