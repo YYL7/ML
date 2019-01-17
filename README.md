@@ -56,6 +56,6 @@ SVD, use to represent the original data set with a much smaller data set by remo
 # ⭐Big data and MapReduce
 
 # 13. MapReduce
-A software framework for spreading a single computing job across multiple computers to shorten the time.
+MapReduce, a software framework for spreading a single computing job across multiple computers to shorten the time.
 
 
